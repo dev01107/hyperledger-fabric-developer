@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hyperledger-fabric-developer/static/css/main.be24e55c.css",
+    "main.js": "/hyperledger-fabric-developer/static/js/main.08890df7.js",
+    "static/js/488.71a88a70.chunk.js": "/hyperledger-fabric-developer/static/js/488.71a88a70.chunk.js",
+    "index.html": "/hyperledger-fabric-developer/index.html",
+    "main.be24e55c.css.map": "/hyperledger-fabric-developer/static/css/main.be24e55c.css.map",
+    "main.08890df7.js.map": "/hyperledger-fabric-developer/static/js/main.08890df7.js.map",
+    "488.71a88a70.chunk.js.map": "/hyperledger-fabric-developer/static/js/488.71a88a70.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be24e55c.css",
+    "static/js/main.08890df7.js"
+  ]
+}
