@@ -1,0 +1,184 @@
+/* General Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Light grey background */
+  color: #333; /* Dark gray text for readability */
+}
+
+/* Header */
+.header {
+  background-color: #4CAF50; /* Simple Green */
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #008CBA; /* Simple Blue */
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #007B8F; /* Darker Blue on hover */
+}
+
+/* About Section */
+.about {
+  padding: 70px 20px;
+  text-align: center;
+  background-color: #e2e2e2; /* Light gray */
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.about-boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about-box, .service-item, .project-card {
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Apply simple, soft colors to the boxes */
+.about-box:nth-child(1), .service-item:nth-child(1), .project-card:nth-child(1) {
+  background-color: #d3d3d3; /* Light Gray */
+}
+
+.about-box:nth-child(2), .service-item:nth-child(2), .project-card:nth-child(2) {
+  background-color: #c0c0c0; /* Silver Gray */
+}
+
+.about-box:nth-child(3), .service-item:nth-child(3), .project-card:nth-child(3) {
+  background-color: #a9a9a9; /* Dark Gray */
+}
+
+.about-box:nth-child(4), .service-item:nth-child(4), .project-card:nth-child(4) {
+  background-color: #b0c4de; /* Light Steel Blue */
+}
+
+/* Hover effect */
+.about-box:hover, .service-item:hover, .project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-box h3, .service-item h3, .project-card h3 {
+  font-size: 1.4rem;
+  color: #333; /* Dark gray text for contrast */
+}
+
+.about-box p, .service-item p, .project-card p {
+  font-size: 1rem;
+  color: #333; /* Dark gray text for readability */
+}
+
+.about-box i, .service-item i, .project-card i {
+  font-size: 2.5rem;
+  color: #333; /* Dark gray icons for contrast */
+  margin-bottom: 15px;
+}
+
+/* Projects Section */
+.projects {
+  padding: 70px 20px;
+  background-color: #ffffff; /* White background */
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* Services Section */
+.services {
+  padding: 70px 20px;
+  background-color: #f1f1f1; /* Light gray */
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.service-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Contact Section */
+.contact {
+  padding: 70px 20px;
+  background-color: #ffffff; /* White background */
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.contact button {
+  background-color: #008CBA; /* Simple Blue */
+  color: #fff;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #007B8F; /* Darker Blue on hover */
+}
+
+/* Footer */
+.footer {
+  background-color: #f9f9f9; /* Light gray */
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
